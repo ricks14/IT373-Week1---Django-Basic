@@ -2,14 +2,13 @@ from django.shortcuts import render
 
 # Create your views here.
 def home(request):
-	context = {
-		'course': 'IT373 - Websys and Technologies 2',
-		'week': 1,
-	}
-	return render(request, 'pages/home.html', context)
-
-def hello(request):
-	return render(request, 'pages/hello.html')
+	return render(request, 'pages/home.html')
 
 def about(request):
-	return render(request, 'pages/about.html')
+	context = {
+		'college': 'Eastern Visayas State University',
+		'course': 'BSIT',
+		'name': 'Ricky L. Rulida Jr.',
+		'id': '2023-10680',
+	}
+	return render(request, 'pages/about.html', context)

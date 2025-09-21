@@ -2,13 +2,21 @@
 
 {% block title %}{% endblock title %}
 {% block content %}
-<h1>Hello there, User!</h1>
-<p>This is a test site... Home Page.</p>
+<h1>Welcome to My Website</h1>
+<p>
+    This website is created as part of my web development assignment.
+</p>
 
-<ul>
-    <li>Course: {{ course }}</li>
-    <li>Week: {{ week }}</li>
-</ul>
+<br />
 
-<p>Try the <a href="{%url 'about'%}">About</a> Page.</p>
+<section>
+    <h3>What You Will Find Here</h3>
+    <p>
+        On this site, you can explore two main sections:
+    </p>
+    <ul>
+        <li><strong>Home:</strong> This introduction and general information.</li>
+        <li><strong>About:</strong> My personal details, including name and student ID.</li>
+    </ul>
+</section>
 {% endblock content %}
