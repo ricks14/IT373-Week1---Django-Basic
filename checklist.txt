@@ -1,0 +1,11 @@
+Checklist of Dependencies:
+
+Python == 3.13.7
+
+VENV active: yes == (.venv) PS C:\Users\Ricky Jr\source\repos\IT373-Week1---Django-Basic>
+
+Django == 5.2.6
+
+Running Server Working: yes == Starting development server at http://127.0.0.1:8000/
+
+Git Remote == origin  https://github.com/ricks14/IT373-Week1---Django-Basic.git (fetch) | origin  https://github.com/ricks14/IT373-Week1---Django-Basic.git (push)
